@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Welcome to my homepage</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="C:\Users\sejong\Downloads\week4-2\img\new-icon.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+  </head>
+  <body>
+    <!-- Start your project here-->
+    
+    <!--header-->
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#link">Link</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+      <!-- Background image -->
+      <div
+        class="p-5 text-center bg-image"
+        style="
+        background-image: url('img/background.jpg');
+        height: 400px;
+        "
+        >
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <img src="img/profile.png" width="150px" class="rounded-circle border border-3 border border-warning" alt="..."/>
+            <h1 class="mb-3">HyeYoung</h1>
+            <h4 class="mb-3">PRML</h4>
+            <a class="btn btn-outline-light btn-lg" href="#!" role="button"
+            >See My Project</a
+            >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Background image -->
+    </header>
+    <!--header-->
+
+    <!-- container -->
+    <div class="container">
+      <!-- about me -->
+      <div class="row" id="about">
+        <h3 class="text-center py-3 text-decoration-underline">ABOUT</h3>
+        <p class="text-center fst-italic">Thanks for stopping by my homepage. Let me
+          tell you something about me: </p>
+        <div class="col-md-6 text-center py-3">
+          <h4>I am</h4>
+          <ul class="list-group list-group-light">
+            <li class="list-group-item border-0 py-1">An engineer</li>
+            <li class="list-group-item border-0 py-1">A reader</li>
+            <li class="list-group-item border-0 py-1">An explorer</li>
+            </ul>
+        </div>
+        <div class="col-md-6 text-center py-3">
+          <h4>I like to</h4>
+          <ul class="list-group list-group-light">
+            <li class="list-group-item border-0 py-1">Meet new people</li>
+            <li class="list-group-item border-0 py-1">Play guitar</li>
+            <li class="list-group-item border-0 py-1">Eat Icecream</li>
+          </ul>
+        </div>
+      </div>
+      <!-- about me -->
+
+      <!-- project -->
+      <div class="row p-3" id="project">
+        <h3 class="text-center pb-3 text-decoration-underline">My Projects</h3>
+        <div class="col-md-6 p-3">
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="img/projects/project-1.jpg" class="img-fluid"/>
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#!" class="btn btn-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="img/projects/project-2.jpg" class="img-fluid"/>
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#!" class="btn btn-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="img/projects/project-3.jpg" class="img-fluid"/>
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#!" class="btn btn-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="img/projects/project-4.jpg" class="img-fluid"/>
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Project 4</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#!" class="btn btn-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- project -->
+
+      <!-- contact -->
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="text-decoration-underline">Link</h3>
+          <button type="button" class="btn btn-secondary btn-floating mx-1">
+            <i class="fab fa-facebook-f"></i>
+          </button>
+  
+          <button type="button" class="btn btn-secondary btn-floating mx-1">
+            <i class="fab fa-linkedin"></i>
+          </button>
+  
+          <button type="button" class="btn btn-secondary btn-floating mx-1">
+            <i class="fab fa-twitter"></i>
+          </button>
+  
+          <button type="button" class="btn btn-secondary btn-floating mx-1">
+            <i class="fab fa-github"></i>
+          </button>
+        </div>
+        <div class="col-md-8">
+          <h3 class="text-decoration-underline">Contact</h3>
+          <form>
+            <!-- Name input -->
+            <div class="form-outline mb-4">
+              <input type="text" id="form4Example1" class="form-control" />
+              <label class="form-label" for="form4Example1">Name</label>
+            </div>
+          
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form4Example2" class="form-control" />
+              <label class="form-label" for="form4Example2">Email address</label>
+            </div>
+          
+            <!-- Message input -->
+            <div class="form-outline mb-4">
+              <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+              <label class="form-label" for="form4Example3">Message</label>
+            </div>
+          
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center mb-4">
+              <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+              <label class="form-check-label" for="form4Example4">
+                Send me a copy of this message
+              </label>
+            </div>
+          
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+          </form>
+        </div>
+      </div>
+      <!-- contact -->
+
+      <!-- map -->
+      <div class="row p-3">
+        <iframe class="col-md-12" height="350px"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25295.948065462762!2d126.9773626327515!3d37.57877055702446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2d63cdfd837%3A0x4ae06b4de851f3cf!2z7LC96rK96raB!5e0!3m2!1sko!2skr!4v1679971660624!5m2!1sko!2skr" 
+         style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        
+      </div>
+      <!-- map -->
+    </div>
+    <!-- container -->
+
+    <!-- footer -->
+    <footer class="bg-dark text-center">
+      <!-- Copyright -->
+      <div class="text-light text-center p-3" style="background-color: rgb(39, 37,
+      37);">
+      © 2023 Copyright:
+      <a class="text-light" target="_blank" href="http://sejong.ac.kr/">Sejong
+      University</a>
+      </div>
+      <!-- Copyright -->
+      </footer>
+    <!-- footer -->
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
